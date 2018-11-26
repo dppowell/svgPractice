@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.st0 {
+  stroke-dasharray: 100;
+  animation: dash 5s linear;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+.lineAnimate {
+	
+	text-align: center;
+	padding: 150px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+*/
